@@ -1,0 +1,20 @@
+console.log("hello");
+
+
+
+const parent=document.getElementById("parent")
+
+parent.addEventListener('click',(e)=>{
+   
+    const child=e.target;
+    console.log(child)
+    
+
+    const body=document.querySelector("body")
+    body.style.backgroundColor=child.id;
+
+
+
+    
+ 
+})
